@@ -5,11 +5,12 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { SumaComponent } from './suma/suma.component';
+import { MainGridComponent } from './main-grid/main-grid.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SumaComponent
+    MainGridComponent
   ],
   imports: [
     BrowserModule,
